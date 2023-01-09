@@ -9,6 +9,13 @@
 *.user
 *.userosscache
 *.sln.docstates
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+*.vs
+>>>>>>> 4b958e2dc652fc643fa8d8973983f10ed367ce46
+>>>>>>> 7ce160dfca5ab98f3c95330290876f66db5d4d30
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
