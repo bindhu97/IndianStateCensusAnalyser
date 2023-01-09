@@ -31,5 +31,12 @@ namespace IndianStateCensusAnalyser.DTO
             this.area = censusDataDao.area;
             this.density = censusDataDao.density;
         }
+        public CensusDTO(StateCodeDAO stateCodeDAO)
+        {
+            this.serialNumber= stateCodeDAO.serialNumber;
+            this.stateName= stateCodeDAO.stateName;
+            this.tin = stateCodeDAO.tin;
+            this.stateCode= stateCodeDAO.stateCode;
+        }
     }
 }
